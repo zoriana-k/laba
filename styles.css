@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(205, 92, 92);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.text {
+    text-align: center;
+    margin: 0;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.about-me {
+    flex: 1;
+    margin-right: 20px; /* Простір між "Про мене" та іншими секціями */
+    box-shadow: 5px 0 5px -5px rgb(205, 92, 92); /* Тінь праворуч від "Про мене" */
+}
+
+.other-sections {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Колір фону інших секцій */
+    border-radius: 0 10px 10px 0; /* Закругленість правого краю інших секцій */
+}
+
+
+.other-sections section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
